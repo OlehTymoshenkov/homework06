@@ -1,7 +1,8 @@
+@import "fonts.css";
 body {
     margin: 0;
-    background-color: #d1e4ff;
-    font-family: Arial, sans-serif
+    font-family: 'Roboto';
+    background-color: #d1e4ff
 }
 .container {
     max-width: 920px;
@@ -179,8 +180,8 @@ p:nth-of-type(9) samp {
     margin-top: 17px
 }
 .center-block dt {
-    font-style: italic;
-    font-weight: bold
+    font-weight: bold;
+    font-style: italic
 }
 .center-block dd {
     line-height: 22px;
@@ -190,20 +191,19 @@ p:nth-of-type(9) samp {
 .center-block table {
     width: 100%;
     border-collapse: collapse;
-    margin-top: 16px;
+    margin-top: 16px
+}
+.center-block table, th, td {
     border: 1px solid #b496b4
 }
 .center-block th {
+    font-weight: normal
+}
+.center-block th, td {
     max-height: 31px;
-    font-weight: normal;
     padding-bottom: 7px;
-    padding-top: 9px;
-    border: 1px solid #b496b4
+    padding-top: 9px
 }
 .center-block td {
-    max-height: 31px;
-    padding-left: 7px;
-    padding-bottom: 7px;
-    padding-top: 9px;
-    border: 1px solid #b496b4
+    padding-left: 7px
 }
